@@ -1,11 +1,12 @@
 import GlobalStyling from "./GlobalStyling"
-import Navbar from "./components/Navbar"
+
+import Home from "./pages/"
 import { BrowserRouter as Router } from "react-router-dom"
 function App() {
   return (
     <Router>
       <GlobalStyling />
-      <Navbar />
+      <Home />
     </Router>
   )
 }
